@@ -1,0 +1,6 @@
+#!/bin/sh
+
+dir=/tmp
+wget --no-check-certificate ${1}/favicon.ico -P $dir
+echo "favicon c $1 был скачан в $dir"
+ls $dir
